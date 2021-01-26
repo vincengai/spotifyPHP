@@ -1,7 +1,6 @@
 <?php
-    
+    include('includes/handlers/register-handler.php');
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,7 +10,7 @@
 </head>
 <body>
     <div id='input-container'>
-        <form id='loginForm' action="action.php" method="POST">
+        <form id='loginForm' action="register.php" method="POST">
             <h2>Login to your account</h2>
             <p>
                 <!-- label's for tag has to match the input ID -->
@@ -28,7 +27,7 @@
         </form>
 
 
-        <form id='registerForm' action="action.php" method="POST">
+        <form id='registerForm' action="register.php" method="POST">
             <h2>Register your account</h2>
             <p>
                 <!-- label's for tag has to match the input ID -->
